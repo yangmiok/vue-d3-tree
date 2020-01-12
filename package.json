@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "example:dev": "webpack-dev-server --mode development --open",
+    "example:dev": "webpack-dev-server --mode development --open --host 0.0.0.0",
     "example:build": "webpack --mode production"
   },
   "dependencies": {
